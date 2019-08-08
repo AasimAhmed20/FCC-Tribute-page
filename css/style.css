@@ -1,110 +1,99 @@
-/* *{
-  margin:0;
-  padding: 0;
-  font-family
-  box-sizing: border-box;
-} */
-/* .fullpage{
-  padding-bottom: 0px;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-} */
-/* we are going to set base font-size of 10px so we can calculate easier.
-Info: 1rem== 10px, 1.5rem === 15px. 2rem === 20px and so forth
-*/
-html{
-  font-size: 10px;
-  /* overflow: hidden; */
+html {
+    font-size: 10px;
+    /* overflow: hidden; */
 }
+
 /* html, body{
-  overflow: hidden;
-} */
-body{
-  /* position: relative; */
-  /* display: block; */
-  /* margin: 8px; */
-  font-family: "Roboto",sans-serif,fantasy;
-  font-size: 1.6rem;
-  line-height: 1.5;
-  text-align: center;
-  color: #333;
-  margin: 0;
-  /* overflow x: hidden;
-    overflow y: auto;
-    background: black;*/
-}
-h1{
-  font-size: 4rem;
-  margin-bottom: 0;
-}
+    overflow: hidden;
+  } */
+body {
 
-@media (max-width: 460px){
-  hi{
-    font-size: 3.5rem;
-    line-height: 1.2;
-  }
-}
-h2{
-  font-size: 3.25rem;
-}
-a {
-  color: #477ca7;
-}
-a:visited{
-  color: #74638f;
-}
-
-#main{
-  margin: 30px 8px;
-  padding: 15px;
-  border-radius: 5px;
-  background: #eee;
-}
-
-@media (max-width: 460px){
-  #main{
+    font-family: "Roboto", sans-serif, fantasy;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #333;
     margin: 0;
-  }
+    /* overflow x: hidden;
+      overflow y: auto;
+      background: black;*/
 }
 
-img{
-  max-width: 100%;
-  display: block;
-  height: auto;
-  margin: 0 auto;
-}
-
-#img-div{
-  background-color: white;
-  padding:10px;
-  margin: 0;
+h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
 }
 
 @media (max-width: 460px) {
-  #img-caption{
-    font-size: 1.4rem;
-  }
+    hi {
+        font-size: 3.5rem;
+        line-height: 1.2;
+    }
 }
 
-#headline{
-  margin: 50px 0;
-  text-align: center;
+h2 {
+    font-size: 3.25rem;
+}
+
+a {
+    color: #477ca7;
+}
+
+a:visited {
+    color: #74638f;
+}
+
+#main {
+    margin: 0;
+    padding: 15px;
+    border-radius: 5px;
+    background: #eee;
+}
+
+@media (max-width: 460px) {
+    #main {
+        margin: 0;
+    }
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-div {
+    background-color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+@media (max-width: 460px) {
+    #img-caption {
+        font-size: 1.4rem;
+    }
+}
+
+#headline {
+    margin: 50px 0;
+    text-align: center;
 }
 
 ul {
-  max-width: 550px;
-  margin: 0 auto 50px auto;
-  text-align: left;
-  line-height: 1.6;
-}
-li{
-  margin: 16px 0;
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
 }
 
-blockquote{
-  font-style: italic;
-  max-width: 545px;
-  margin: 0 auto 50px auto;
-  text-align: left;
+li {
+    margin: 16px 0;
+}
+
+blockquote {
+    font-style: italic;
+    max-width: 545px;
+    margin: 0 auto 50px auto;
+    text-align: left;
 }
